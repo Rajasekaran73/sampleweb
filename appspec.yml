@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: \test
+  - source: . \test
     destination: C:\inetpub\wwwroot\temp
   hooks:
   BeforeInstall:
