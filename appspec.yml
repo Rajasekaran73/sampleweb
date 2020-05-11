@@ -3,7 +3,7 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot
-  - source: \test\*.*
+  - source: \test\
     destination: C:\inetpub\wwwroot\temp
   hooks:
   BeforeInstall:
