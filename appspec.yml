@@ -3,13 +3,9 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot
-  - source: \test\index.html
+  - source: \test\*.*
     destination: C:\inetpub\wwwroot\temp
-  - source: \test\Raj1
-    destination: C:\inetpub\wwwroot\temp
-  - source: \test\Raj2
-    destination: C:\inetpub\wwwroot\temp
-hooks:
+  hooks:
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
