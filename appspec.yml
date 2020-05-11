@@ -5,10 +5,8 @@ files:
     destination: C:\inetpub\wwwroot
   - source: .\test
     destination: C:\inetpub\wwwroot\temp
-  - source: \before-install.bat
-    destination: C:\temp
 
 hooks:
   BeforeInstall:
-    - location: c:\temp\before-install.bat
+    - location: \before-install.bat
       timeout: 900
