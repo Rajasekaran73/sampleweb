@@ -3,7 +3,12 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot
+  - source: \test\index.html
     destination: C:\inetpub\wwwroot\temp
+  - source: \test\Raj1
+    destination: C:\inetpub\wwwroot\temp
+  - source: \test\Raj2
+    destination: C:\inetpub\wwwwroot\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
