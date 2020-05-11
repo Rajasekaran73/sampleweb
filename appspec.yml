@@ -6,7 +6,7 @@ files:
   - source: \index.html
     destination: C:\inetpub\wwwroot\temp
   - source: .\test
-    destination: C:\inetpub\wwwwroot\temp
+    destination: C:\inetpub\wwwroot\temp
 
 hooks:
   BeforeInstall:
