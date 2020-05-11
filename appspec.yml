@@ -8,7 +8,7 @@ files:
   - source: \test\Raj1
     destination: C:\inetpub\wwwroot\temp
   - source: \test\Raj2
-    destination: C:\inetpub\wwwwroot\temp
+    destination: C:\inetpub\wwwroot\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
