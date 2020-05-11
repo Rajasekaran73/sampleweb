@@ -3,7 +3,7 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot
-    destination: C:\interpub\wwwroot\temp
+    destination: C:\inetpub\wwwroot\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
