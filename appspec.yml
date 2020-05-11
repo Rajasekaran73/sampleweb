@@ -2,8 +2,9 @@ version: 0.0
 os: windows
 files:
   - source: \index.html
+  - source: \test\*
     destination: C:\inetpub\wwwroot
-    destination: C:\intetpub\wwwroot\temp
+    destination: C:\inetpub\wwwroot\temp
 hooks:
   BeforeInstall:
     - location: \before-install.bat
