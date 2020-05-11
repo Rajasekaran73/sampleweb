@@ -2,8 +2,8 @@ version: 0.0
 os: windows
 files:
   - source: \index.html
-  - source: \test\*
     destination: C:\inetpub\wwwroot
+  - source: \test\*
     destination: C:\inetpub\wwwroot\temp
 hooks:
   BeforeInstall:
