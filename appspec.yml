@@ -3,7 +3,6 @@ os: windows
 files:
   - source: \index.html
     destination: C:\inetpub\wwwroot
-  - source: \test\index.html, Raj1, Raj2
     destination: C:\inetpub\wwwroot\temp
 hooks:
   BeforeInstall:
